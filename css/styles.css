@@ -10017,7 +10017,7 @@ h3,
 h4,
 h5,
 h6 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 h1 {
@@ -10113,7 +10113,7 @@ section.resume-section {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
@@ -10122,7 +10122,7 @@ section.resume-section .resume-section-content {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 20vh;
   }
 }
 @media (min-width: 992px) {
@@ -10130,6 +10130,17 @@ section.resume-section .resume-section-content {
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
   }
+}
+
+
+.cv-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cv-header ul {
+  list-style-type: none;
 }
